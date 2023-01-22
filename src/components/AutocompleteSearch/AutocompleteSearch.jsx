@@ -16,6 +16,7 @@ const AutocompleteSearch = (props) => {
 
     const clickOutsideEventLister = () => {
         setSearchFilterList([]);
+        setErrorMsg("");
         const inputElm = document.querySelector('.search-input')
         inputElm.value = "";
     }
