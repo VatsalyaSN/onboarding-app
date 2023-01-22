@@ -2,7 +2,7 @@
   "name": "axiamatic-onboarding-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gitname.github.io/axiamatic-onboarding",
+  "homepage": "https://vatsalyasn.github.io/axiamatic-onboarding",
   "type": "module",
   "scripts": {
     "dev": "vite",
