@@ -15,10 +15,11 @@ const AutocompleteSearch = (props) => {
     const wrapperRef = useRef(null);
 
     const clickOutsideEventLister = () => {
-        setSearchFilterList([]);
-        setErrorMsg("");
         const inputElm = document.querySelector('.search-input')
         inputElm.value = "";
+
+        setSearchFilterList([]);
+        setErrorMsg("");
     }
 
     useOutsideAlerter(wrapperRef, clickOutsideEventLister);
