@@ -1,10 +1,12 @@
-import notionLogo from '../assets/images/notion_logo.png';
-import azureLogo from '../assets/images/azure_logo.png';
-import jiraLogo from '../assets/images/jira_logo.jpeg';
-import noimicsLogo from '../assets/images/noimics_logo.png';
-import nopenSpeedLogo from '../assets/images/nopenSpeed_logo.png';
-import noyerBooksLogo from '../assets/images/noyerBooks_logo.png';
-import slackLogo from '../assets/images/slack_logo.png';
+import notionLogo from '../assets/images/logos/notion_logo.png';
+import azureLogo from '../assets/images/logos/azure_logo.png';
+import jiraLogo from '../assets/images/logos/jira_logo.jpeg';
+import noimicsLogo from '../assets/images/logos/noimics_logo.png';
+import nopenSpeedLogo from '../assets/images/logos/nopenSpeed_logo.jpeg';
+import noyerBooksLogo from '../assets/images/logos/noyerBooks_logo.png';
+import slackLogo from '../assets/images/logos/slack_logo.png';
+import zoomLogo from '../assets/images/logos/zoom.jpeg';
+import teamsLogo from '../assets/images/logos/teams_logo.png';
 
 
 export const softwareList = [
@@ -42,5 +44,15 @@ export const softwareList = [
         label: 'Slack',
         value: 'slack',
         icon: slackLogo
+    },
+    {
+        label: 'Zoom',
+        value: 'zoom',
+        icon: zoomLogo
+    },
+    {
+        label: 'Teams',
+        value: 'teams',
+        icon: teamsLogo
     }
 ]
