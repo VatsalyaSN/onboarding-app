@@ -123,8 +123,8 @@ const OnboardingPage = () => {
                             showSelectedItem={selectedProductsTracker.current} 
                             onListItemSelection={handleAddProductAction} 
                             listItems={softwareList}
-                            placeholder="Search for any software..."
-                            listItemNotAvailableMsg="Software not available"
+                            placeholder={CONSTANTS.SEARCH_INPUT_PLACEHOLDER}
+                            listItemNotAvailableMsg={CONSTANTS.NO_RESULT_MSG}
                         />
                         <button 
                             disabled={!selectedProductsTracker?.current.size} 
