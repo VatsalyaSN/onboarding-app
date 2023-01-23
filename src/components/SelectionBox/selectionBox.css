@@ -126,3 +126,10 @@
     } 
 }
 
+@media only screen and (max-width: 549px) {
+    .selection-box-wrapper {
+        width: 110px;
+        height: 110px;
+    }
+}
+
