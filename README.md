@@ -3,18 +3,15 @@
 ### Introduction:
     The Axiamatic onboarding flow allows a team leader to sign-up and register his team and select the products to collect feedback from his team.
     
-    The application has been hosted using github pages [here](https://vatsalyasn.github.io/onboarding-app/)
+    The application has been hosted using github pages:
+        https://vatsalyasn.github.io/onboarding-app/
 
 ### Instructions to run the app locally:
     - Clone the repository
     - Open the folder in terminal and install the packages by running
-      ```
-      npm i
-      ```
+              npm i
     - Once the packages are installed, run the below command to start the server
-      ```
-      npm run dev
-      ```
+              npm run dev
 
     - Once the server has started, open http://localhost:5173/ in the browser
 
